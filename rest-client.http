@@ -4,3 +4,12 @@ GET http://localhost:8080/v1/health
 
 ### error check
 GET http://localhost:8080/v1/error
+
+
+### insert new user
+POST http://localhost:8000/v1/users
+Content-Type: application/json
+
+{
+    "name": "Robb"
+}
