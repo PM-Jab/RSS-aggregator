@@ -1,0 +1,6 @@
+### health check
+GET http://localhost:8080/v1/health
+
+
+### error check
+GET http://localhost:8080/v1/error
